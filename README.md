@@ -14,3 +14,16 @@ cap_setpcapをeffectiveにする方法は、スーパーユーザー権限で以
 ```setcap cap_setpcap=pie ./capmanager```
 
 使用されるシステムコールは capget と capset であり、これら2つの呼び出しによってcapabilitiesを変更することができます。capabilitiesは、32ビット整数6個のビット列として表現され、__user_cap_data_struct 構造体を通じて取得することが可能です。
+
+
+## コンパイルする方法
+
+QtをインストールしてからBuildというフォルダーでは以下のコマンドを書いてください。
+CMAKE_PREFIX_PATHを設定してください、私の場合なら/opt/Qt/6.8.2/gcc_64/lib/cmake/Qt6になります。
+
+```
+cmake ../.. -DCMAKE_PREFIX_PATH=/opt/Qt/6.8.2/gcc_64/lib/cmake/Qt6
+make
+```
+![コンパイル](capmanager-screen3.png)
+
