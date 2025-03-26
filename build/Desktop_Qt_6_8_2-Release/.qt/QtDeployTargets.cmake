@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_capmanager_FILE /home/arithmos/capmanager/build/Desktop_Qt_6_8_2-Release/capmanager)
+set(__QT_DEPLOY_TARGET_capmanager_TYPE EXECUTABLE)
