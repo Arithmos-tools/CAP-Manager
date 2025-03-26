@@ -30,7 +30,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         capabilityform.h capabilityform.cpp
         capabilitiesArray.h
         capabilitiesArray.cpp
-        cap_explanation.xml
         singlecapability.h singlecapability.cpp
     )
 # Define target properties for Android with Qt 6 as:
